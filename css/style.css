@@ -1,0 +1,192 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap");
+
+:root {
+  --iriscolor: #4d5ae5;
+  --navyblue: #2e2f42;
+  --navcolor: black;
+  --whitecolor: white;
+  --skybluecolor: skyblue;
+  --slatecolor: #434455;
+  --oceancolor: #404bbf;
+  --cloud: #f4f4fd;
+  --cornflower: #e7e9fc;
+}
+
+.link-logo {
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 1.5;
+  font-family: "Raleway", sans-serif;
+}
+
+.logo-1 {
+  color: var(--iriscolor);
+  font-size: 18px;
+  font-weight: 800;
+  letter-spacing: 0.54px;
+}
+
+.logo-2 {
+  color: var(--navyblue);
+  font-size: 18px;
+  font-weight: 800;
+  letter-spacing: 0.034em;
+}
+
+.navbar .pages {
+  color: var(--navyblue);
+  font-size: 16px;
+  text-decoration: none;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.lists {
+  list-style-type: none;
+}
+
+.navbar .pages:hover,
+.navbar .pages:focus,
+.navbar .pages.currentoption,
+.contact-info .info:hover,
+.contact-info .info:focus {
+  color: var(--iriscolor);
+}
+
+.contact-info .info {
+  color: var(--navyblue);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+
+.bg-sec1 {
+  background-color: var(--navcolor);
+  width: 1440px;
+  height: 600px;
+}
+
+.h1-title {
+  color: var(--whitecolor);
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.5;
+  letter-spacing: 0.07em;
+  text-align: center;
+}
+
+.btn {
+  cursor: pointer;
+  border-color: transparent;
+  letter-spacing: 0.04em;
+  font-family: inherit;
+}
+
+.btn.primary {
+  background-color: var(--iriscolor);
+  color: var(--whitecolor);
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  font-weight: 500;
+}
+
+.btn.primary:hover,
+.btn.primary:focus {
+  background-color: var(--skybluecolor);
+}
+
+.desclist.titlelist {
+  color: var(--slatecolor);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.025em;
+}
+
+.sectiontitle {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.5;
+  letter-spacing: 0.045em;
+  color: var(--navyblue);
+}
+
+.team .teamname {
+  color: var(--navyblue);
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.025em;
+  font-size: 20px;
+}
+
+.position {
+  color: var(--slatecolor);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.logo-22 {
+  color: var(--whitecolor);
+  font-size: 18px;
+  font-weight: 800;
+  letter-spacing: 0.034em;
+}
+
+.footerbg {
+  background-color: var(--navcolor);
+  width: 1440px;
+  height: 312px;
+}
+.lastword {
+  color: var(--whitecolor);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.btnapp {
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  border-radius: 4px;
+  border: 1px solid var(--cornflower, #e7e9fc);
+}
+.btn2 .all {
+  color: var(--whitecolor);
+}
+
+.btn2 .others {
+  color: var(--iriscolor);
+  background-color: var(--cloud);
+}
+
+.btn2 .btnapp:hover,
+.btn2 .btnapp:focus,
+.btn2 .btnapp.all {
+  background-color: var(--oceancolor);
+}
+
+.appmenu .app {
+  color: var(--navyblue);
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.003em;
+}
+
+.appdesc {
+  color: var(--slatecolor);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
