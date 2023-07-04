@@ -8,158 +8,180 @@
     <title>Portfolio</title>
   </head>
   <body>
-    <header>
-      <div>
-        <!-- Navigation Bar -->
-        <nav>
-          <a href="./index.html" class="link-logo">
-            <span class="logo-1">WEB </span>
-            <span class="logo-2">STUDIO</span>
-          </a>
-          <ul class="navbar lists">
-            <li><a href="/" class="pages currentoption">Studio</a></li>
-            <li><a href="./portfolio.html" class="pages">Portfolio</a></li>
-            <li><a href="/" class="pages">Contacts</a></li>
-          </ul>
-        </nav>
-        <ul class="contact-info lists">
+    <header class="page-header">
+      <nav>
+        <a href="./index.html" class="logo-link">
+          <span class="logo">WEB</span>
+          <span class="studio">STUDIO</span>
+        </a>
+        <ul class="nav-menu list">
           <li>
-            <a href="mailto:info@devstudio.com" class="info"
-              >info@devstudio.com</a
-            >
+            <a href="/" class="page current">Studio</a>
           </li>
           <li>
-            <a href="tel:+11(000)111-11-11" class="info">+11(000)111-11-11</a>
+            <a href="./portfolio.html" class="page">Portfolio</a>
+          </li>
+          <li>
+            <a href="/" class="page">Contacts</a>
           </li>
         </ul>
-      </div>
+      </nav>
+      <ul class="contacts-menu list">
+        <li>
+          <a href="info@devstudio.com" class="item"
+            >mailto:info@devstudio.com</a
+          >
+        </li>
+        <li>
+          <a href="tel:+11(000)111-11-11" class="item">tel:+11(000)111-11-11</a>
+        </li>
+      </ul>
     </header>
+
     <main>
       <!-- Manu -->
       <section>
-        <h2 hidden>Images</h2>
-        <div>
-          <ul class="btn2 lists">
+        <div class="container">
+          <ul class="filters list">
             <li>
-              <button type="button" class="btnapp all">All</button>
+              <button type="button" class="button filter current">All</button>
             </li>
             <li>
-              <button type="button" class="btnapp others">Website</button>
+              <button type="button" class="button filter">Website</button>
             </li>
             <li>
-              <button type="button" class="btnapp others">App</button>
+              <button type="button" class="button filter">App</button>
             </li>
             <li>
-              <button type="button" class="btnapp others">Design</button>
+              <button type="button" class="button filter">Design</button>
             </li>
             <li>
-              <button type="button" class="btnapp others">Marketing</button>
+              <button type="button" class="button filter">Marketing</button>
+            </li>
+          </ul>
+          <!-- Images -->
+          <ul class="projects list">
+            <li>
+              <a href="#" class="project">
+                <img
+                  src="./images/img-8.jpg"
+                  alt="Banking App Interface Concept"
+                  width="370"
+                  height="294"
+                />
+                <h3 class="name">Banking App Interface Concept</h3>
+                <p class="type">App</p>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="project">
+                <img
+                  src="./images/img-9.jpg"
+                  alt="Phone with QR code"
+                  width="370"
+                  height="294"
+                />
+                <h3 class="name">Cashless Payment</h3>
+                <p class="type">Marketing</p>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="project">
+                <img
+                  src="./images/img-10.jpg"
+                  alt="Laptop with red colored screen"
+                  width="370"
+                  height="294"
+                />
+                <h3 class="name">Meditation App</h3>
+                <p class="type">App</p>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="project">
+                <img
+                  src="./images/img-11.jpg"
+                  alt="Steering Wheel"
+                  width="370"
+                  height="294"
+                />
+                <h3 class="name">Taxi Service</h3>
+                <p class="type">Marketing</p>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="project">
+                <img
+                  src="./images/img-12.jpg"
+                  alt="Moon Wallpaper Phone Screen"
+                  width="370"
+                  height="294"
+                />
+                <h3 class="name">Screen Illustrations</h3>
+                <p class="type">Design</p>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="project">
+                <img
+                  src="./images/img-13.jpg"
+                  alt="Smiling Woman with a bennie"
+                  width="370"
+                  height="294"
+                />
+                <h3 class="name">Online Courses</h3>
+                <p class="type">Marketing</p>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="project">
+                <img
+                  src="./images/img-14.jpg"
+                  alt="Instagram Stories Concept"
+                  width="370"
+                  height="294"
+                />
+                <h3 class="name">Instagram Stories Concept</h3>
+                <p class="type">Design</p>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="project">
+                <img
+                  src="./images/img-15.jpg"
+                  alt="Grocery bag with fruits and vegetables"
+                  width="370"
+                  height="294"
+                />
+                <h3 class="name">Organic Food</h3>
+                <p class="type">Web Site</p>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="project">
+                <img
+                  src="./images/img-16.jpg"
+                  alt="Making coffee art"
+                  width="370"
+                  height="294"
+                />
+                <h3 class="name">Fresh Coffee</h3>
+                <p class="type">Web Site</p>
+              </a>
             </li>
           </ul>
         </div>
       </section>
-      <section>
-        <!-- Images -->
-        <ul class="appmenu lists">
-          <li>
-            <img src="./images/img-8.jpg" alt="Banking App Interface Concept" />
-            <h3 class="app">Banking App Interface Concept</h3>
-            <p class="appdesc">App</p>
-          </li>
-          <li>
-            <img
-              src="./images/img-9.jpg"
-              alt="Phone with QR code"
-              width="360"
-              height="300"
-            />
-            <h3 class="app">Cashless Payment</h3>
-            <p class="appdesc">Marketing</p>
-          </li>
-          <li>
-            <img
-              src="./images/img-10.jpg"
-              alt="Laptop with red colored screen"
-              width="360"
-              height="300"
-            />
-            <h3 class="app">Meditation App</h3>
-            <p class="appdesc">App</p>
-          </li>
-          <li>
-            <img
-              src="./images/img-11.jpg"
-              alt="Steering Wheel"
-              width="360"
-              height="300"
-            />
-            <h3 class="app">Taxi Service</h3>
-            <p class="appdesc">Marketing</p>
-          </li>
-          <li>
-            <img
-              src="./images/img-12.jpg"
-              alt="Moon Wallpaper Phone Screen"
-              width="360"
-              height="300"
-            />
-            <h3 class="app">Screen Illustrations</h3>
-            <p class="appdesc">Design</p>
-          </li>
-          <li>
-            <img
-              src="./images/img-13.jpg"
-              alt="Smiling Woman with a bennie"
-              width="360"
-              height="300"
-            />
-            <h3 class="app">Online Courses</h3>
-            <p class="appdesc">Marketing</p>
-          </li>
-          <li>
-            <img
-              src="./images/img-14.jpg"
-              alt="Instagram Stories Concept"
-              width="360"
-              height="300"
-            />
-            <h3 class="app">Instagram Stories Concept</h3>
-            <p class="appdesc">Design</p>
-          </li>
-          <li>
-            <img
-              src="./images/img-15.jpg"
-              alt="Grocery bag with fruits and vegetables"
-              width="360"
-              height="300"
-            />
-            <h3 class="app">Organic Food</h3>
-            <p class="appdesc">Web Site</p>
-          </li>
-          <li>
-            <img
-              src="./images/img-16.jpg"
-              alt="Making coffee art"
-              width="360"
-              height="300"
-            />
-            <h3 class="app">Fresh Coffee</h3>
-            <p class="appdesc">Web Site</p>
-          </li>
-        </ul>
-      </section>
     </main>
-    <footer class="lastpart footerbg">
+    <footer class="page-footer bg-footer">
       <div>
-        <a href="./index.html" class="link-logo">
-          <span class="logo-1">WEB </span>
-          <span class="logo-22">STUDIO</span>
-        </a>
-        <p>
-          <span class="lastword">
-            Increase the flow of customers and <br />sales for your business
-            with digital <br />marketing & growth solutions.
-          </span>
+        <a href="./index.html" class="log-link">
+          <span class="logo">WEB</span>
+          <span class="studio-2">STUDIO</span></a
+        >
+        <p class="footer-description">
+          Increase the flow of customers and <br />sales for your business with
+          digital <br />marketing & growth solutions.
         </p>
       </div>
     </footer>

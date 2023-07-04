@@ -5,153 +5,168 @@
   --navyblue: #2e2f42;
   --navcolor: black;
   --whitecolor: white;
-  --skybluecolor: skyblue;
   --slatecolor: #434455;
   --oceancolor: #404bbf;
   --cloud: #f4f4fd;
   --cornflower: #e7e9fc;
 }
 
-.link-logo {
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.logo-link {
   text-decoration: none;
   font-size: 18px;
   line-height: 1.5;
   font-family: "Raleway", sans-serif;
 }
 
-.logo-1 {
+.logo {
   color: var(--iriscolor);
   font-size: 18px;
   font-weight: 800;
   letter-spacing: 0.54px;
 }
 
-.logo-2 {
+.studio {
   color: var(--navyblue);
   font-size: 18px;
   font-weight: 800;
-  letter-spacing: 0.034em;
+  letter-spacing: 0.54px;
 }
 
-.navbar .pages {
+.nav-menu .page {
   color: var(--navyblue);
   font-size: 16px;
   text-decoration: none;
   font-weight: 500;
   line-height: 1.5;
-  letter-spacing: 0.02em;
+  letter-spacing: 0.32px;
 }
 
-.lists {
+.list {
   list-style-type: none;
 }
 
-.navbar .pages:hover,
-.navbar .pages:focus,
-.navbar .pages.currentoption,
-.contact-info .info:hover,
-.contact-info .info:focus {
+.nav-menu .page:hover,
+.nav-menu .page:focus,
+.nav-menu .page.current,
+.contacts-menu .item:hover,
+.contacts-menu .item:focus {
   color: var(--iriscolor);
 }
 
-.contact-info .info {
+.contacts-menu .item {
   color: var(--navyblue);
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
-  letter-spacing: 0.02em;
+  letter-spacing: 0.32px;
   text-decoration: none;
 }
 
-.bg-sec1 {
+.hero-bg {
   background-color: var(--navcolor);
   width: 1440px;
   height: 600px;
 }
 
-.h1-title {
+.hero-title {
   color: var(--whitecolor);
   font-size: 56px;
   font-weight: 700;
   line-height: 1.5;
-  letter-spacing: 0.07em;
+  letter-spacing: 1.12px;
   text-align: center;
 }
 
-.btn {
+.button {
   cursor: pointer;
   border-color: transparent;
   letter-spacing: 0.04em;
-  font-family: inherit;
-}
-
-.btn.primary {
   background-color: var(--iriscolor);
   color: var(--whitecolor);
   line-height: 1.5;
-  letter-spacing: 0.04em;
+  letter-spacing: 0.64px;
   font-weight: 500;
 }
 
-.btn.primary:hover,
-.btn.primary:focus {
-  background-color: var(--skybluecolor);
+.button.primary:hover,
+.button.primary:focus {
+  background-color: var(--oceancolor);
 }
 
-.desclist.titlelist {
-  color: var(--slatecolor);
+.title {
+  color: var(--navyblue);
   font-size: 20px;
+  font-style: normal;
   font-weight: 500;
   line-height: 1.5;
-  letter-spacing: 0.025em;
+  letter-spacing: 0.4px;
 }
 
-.sectiontitle {
+.description {
+  color: var(--slatecolor);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+}
+
+.bg-team {
+  background-color: var(--cloud);
+}
+
+.section-title {
   text-align: center;
   font-size: 36px;
   font-weight: 700;
   line-height: 1.5;
-  letter-spacing: 0.045em;
+  letter-spacing: 0.72px;
   color: var(--navyblue);
 }
 
-.team .teamname {
+.team li {
   color: var(--navyblue);
+  font-size: 20px;
+  font-style: normal;
   font-weight: 500;
   line-height: 1.5;
-  letter-spacing: 0.025em;
-  font-size: 20px;
+  letter-spacing: 0.4px;
 }
 
 .position {
   color: var(--slatecolor);
   font-size: 16px;
+  font-style: normal;
   font-weight: 400;
   line-height: 1.5;
-  letter-spacing: 0.02em;
+  letter-spacing: 0.32px;
 }
 
-.logo-22 {
+.studio-2 {
   color: var(--whitecolor);
   font-size: 18px;
   font-weight: 800;
-  letter-spacing: 0.034em;
+  letter-spacing: 0.54px;
 }
 
-.footerbg {
+.bg-footer {
   background-color: var(--navcolor);
   width: 1440px;
   height: 312px;
 }
-.lastword {
+.footer-description {
   color: var(--whitecolor);
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
-  letter-spacing: 0.02em;
+  letter-spacing: 0.32px;
 }
 
-.btnapp {
+.filter {
   cursor: pointer;
   font-size: 16px;
   font-weight: 500;
@@ -159,34 +174,30 @@
   letter-spacing: 0.04em;
   border-radius: 4px;
   border: 1px solid var(--cornflower, #e7e9fc);
-}
-.btn2 .all {
-  color: var(--whitecolor);
-}
-
-.btn2 .others {
   color: var(--iriscolor);
   background-color: var(--cloud);
 }
 
-.btn2 .btnapp:hover,
-.btn2 .btnapp:focus,
-.btn2 .btnapp.all {
+.filters .filter:hover,
+.filters .filter:focus,
+.filters .filter.current {
   background-color: var(--oceancolor);
+  color: var(--whitecolor);
 }
 
-.appmenu .app {
+.projects a {
   color: var(--navyblue);
   font-size: 24px;
   font-weight: 500;
   line-height: 1.5;
-  letter-spacing: 0.003em;
+  letter-spacing: 0.4px;
+  text-decoration: none;
 }
 
-.appdesc {
+.type {
   color: var(--slatecolor);
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
-  letter-spacing: 0.02em;
+  letter-spacing: 0.32px;
 }
