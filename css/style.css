@@ -1,7 +1,7 @@
 :root {
   --iriscolor: #4d5ae5;
   --navyblue: #2e2f42;
-  --navcolor: black;
+  --blackcolor: black;
   --whitecolor: white;
   --slatecolor: #434455;
   --oceancolor: #404bbf;
@@ -108,16 +108,20 @@ body {
 .button.primary {
   color: var(--whitecolor);
   background-color: var(--iriscolor);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
 }
 
-.benefits.title {
+.benefits .title {
   color: var(--navyblue);
   font-size: 14px;
   font-weight: 700;
   line-height: 1.14;
 }
 
-.benefits.description {
+.benefits .description {
   line-height: 1.71;
 }
 
@@ -137,21 +141,23 @@ body {
 .team .position {
   font-size: 16px;
   line-height: 1.19;
+  text-align: center;
 }
 
-.team.name {
-  color: var(--darkcolor);
+.team .name {
+  color: var(--navyblue);
   font-weight: 500;
 }
 
 .studio-2 {
   color: var(--whitecolor);
-  font-weight: 800;
+  font-weight: 700;
 }
 
 .bg-footer {
   background-color: var(--navyblue);
 }
+
 .footer-description {
   color: var(--whitecolor);
   font-size: 16px;
@@ -171,8 +177,8 @@ body {
   text-decoration: none;
 }
 
-.project.name {
-  color: var(--darkcolor);
+.project .name {
+  color: var(--navyblue);
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
